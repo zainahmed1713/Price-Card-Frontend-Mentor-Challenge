@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    width: 900px;
+    height: 660px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 34px 16px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.top {
+    width: 100%;
+    height: 40%;
+    padding: 60px;
+}
+
+.join {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #2caaa8;
+}
+
+.guarantee {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #c8d77a;
+}
+
+.top-para {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #bec1cc;
+}
+
+.bottom-section {
+    width: 100%;
+    height: 60%;
+}
+
+.bottom-left,
+.bottom-right {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 60px;
+    vertical-align: top;
+}
+
+.bottom-left {
+    color: white;
+    background-color: #2bb3b1;
+    border-bottom-left-radius: 10px;
+}
+
+.subscription {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.price,
+.interval {
+    display: inline-block;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.interval {
+    position: relative;
+    bottom: 9px;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.access {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.signup {
+    width: 100%;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #bfdf32;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.signup:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.bottom-right {
+    color: white;
+    background-color: #4abebd;
+    border-bottom-right-radius: 10px;
+
+}
+
+.why-us {
+    margin-bottom: 43px;
+    font-size: 24px;
+}
+
+.bottom-right ul li {
+    list-style: none;
+    height: 30px;
+    position: relative;
+    right: 40px;
+    opacity: 0.8;
+}
