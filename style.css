@@ -48,14 +48,14 @@ body {
 }
 
 .bottom-section {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 60%;
 }
 
 .bottom-left,
 .bottom-right {
-    display: inline-block;
-    width: 100%;
+    flex-basis: 50%;
     height: 100%;
     padding: 60px;
     vertical-align: top;
@@ -140,9 +140,8 @@ body {
         height: 660px;
     }
 
-    .bottom-left,
-    .bottom-right {
-        width: 50%;
+    .bottom-section {
+        flex-direction: row;
     }
 
     .bottom-right ul {
